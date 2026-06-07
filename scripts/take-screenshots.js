@@ -7,7 +7,8 @@ const URLS = [
   { path: '/properties', file: 'properties.png', label: 'Properties Listing' },
   { path: '/properties/cozy-downtown-loft', file: 'property-detail.png', label: 'Property Detail' },
   { path: '/properties/beachside-cottage', file: 'property-detail-2.png', label: 'Property Detail (Cottage)' },
-  { path: '/admin?password=change_me_in_production', file: 'admin-requests.png', label: 'Admin - Requests' },
+  { path: '/admin', file: 'admin-dashboard.png', label: 'Admin Dashboard' },
+  { path: '/admin/requests', file: 'admin-requests.png', label: 'Admin - Requests' },
   { path: '/admin/properties', file: 'admin-properties.png', label: 'Admin - Properties' },
 ]
 

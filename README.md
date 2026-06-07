@@ -31,6 +31,9 @@ A lightweight booking site for short-term rental properties. List properties, sy
 ### Property Detail (Cottage)
 ![Property Detail (Cottage)](public/screenshots/property-detail-2.png)
 
+### Admin — Dashboard
+![Admin Dashboard](public/screenshots/admin-dashboard.png)
+
 ### Admin — Booking Requests
 ![Admin Requests](public/screenshots/admin-requests.png)
 
