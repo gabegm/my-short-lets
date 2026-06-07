@@ -20,6 +20,23 @@ A lightweight booking site for short-term rental properties. List properties, sy
 - Email notifications (host + guest)
 - All on free tiers (~$1/month for domain)
 
+## Screenshots
+
+### Properties Listing
+![Properties Listing](/screenshots/properties.png)
+
+### Property Detail
+![Property Detail](/screenshots/property-detail.png)
+
+### Property Detail (Cottage)
+![Property Detail (Cottage)](/screenshots/property-detail-2.png)
+
+### Admin — Booking Requests
+![Admin Requests](/screenshots/admin-requests.png)
+
+### Admin — Properties
+![Admin Properties](/screenshots/admin-properties.png)
+
 ## Setup
 
 ### 1. Create a Supabase project
