@@ -310,6 +310,16 @@ if (USE_MOCK_DATA) {
         })
       }
 
+      // Handle joins (booking_requests with properties)
+      if (selectFields.includes('properties') && table === 'booking_requests') {
+        result = result.map((row) => {
+          const reqRow = row as Record<string, unknown>
+          const propertyId = reqRow.property_id as string
+          const prop = getPropertyById(propertyId)
+          return { ...reqRow, properties: prop ? { name: prop.name, slug: prop.slug } : null }
+        })
+      }
+
       // Handle single mode
       if (singleMode) {
         if (result.length === 0) {

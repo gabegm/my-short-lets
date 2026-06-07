@@ -39,7 +39,14 @@ export default async function AdminDashboard() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <Link
+          href="/admin/properties"
+          className="block p-6 border rounded-lg hover:bg-gray-50 transition"
+        >
+          <h2 className="font-semibold text-lg">Properties</h2>
+          <p className="text-gray-600 text-sm">View and manage all properties</p>
+        </Link>
         <Link
           href="/admin/requests"
           className="block p-6 border rounded-lg hover:bg-gray-50 transition"
