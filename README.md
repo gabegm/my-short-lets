@@ -23,19 +23,19 @@ A lightweight booking site for short-term rental properties. List properties, sy
 ## Screenshots
 
 ### Properties Listing
-![Properties Listing](/screenshots/properties.png)
+![Properties Listing](public/screenshots/properties.png)
 
 ### Property Detail
-![Property Detail](/screenshots/property-detail.png)
+![Property Detail](public/screenshots/property-detail.png)
 
 ### Property Detail (Cottage)
-![Property Detail (Cottage)](/screenshots/property-detail-2.png)
+![Property Detail (Cottage)](public/screenshots/property-detail-2.png)
 
 ### Admin — Booking Requests
-![Admin Requests](/screenshots/admin-requests.png)
+![Admin Requests](public/screenshots/admin-requests.png)
 
 ### Admin — Properties
-![Admin Properties](/screenshots/admin-properties.png)
+![Admin Properties](public/screenshots/admin-properties.png)
 
 ## Local Development
 
