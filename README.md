@@ -37,6 +37,38 @@ A lightweight booking site for short-term rental properties. List properties, sy
 ### Admin — Properties
 ![Admin Properties](/screenshots/admin-properties.png)
 
+## Local Development
+
+You can run the entire app locally with mock data — no Supabase or external services needed.
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start the dev server
+
+```bash
+npm run dev
+```
+
+Mock data is enabled by default (see `.env.local`). The site will show 3 sample properties with sample booking requests and blocked dates.
+
+### 3. Explore
+
+- **Properties**: `http://localhost:3000/properties`
+- **Property detail**: `http://localhost:3000/properties/cozy-downtown-loft`
+- **Admin**: `http://localhost:3000/admin` (password: `change_me_in_production`)
+
+### 4. Run tests
+
+```bash
+npm run test:run
+```
+
+37 tests covering property queries, booking requests, iCal parsing, availability logic, and input validation.
+
 ## Setup
 
 ### 1. Create a Supabase project
